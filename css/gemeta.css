@@ -102,7 +102,7 @@ div[view_id = 'slogan'] {
   min-width: max-content !important;
   font-weight: 930 !important;
   font-family: 'Chakra Petch';
-  font-size: 45px !important;
+  font-size: 40px !important;
   color: #e7ff46;
   display: flex;
   flex: 1;
@@ -129,7 +129,7 @@ div[view_id = 'slogan'] {
   height: 70px;
   overflow: hidden;
   font-family: 'Chakra Petch';
-  font-size: 45px !important;
+  font-size: 40px !important;
   font-weight: 930 !important;
   display: flex;
   flex: 1;
@@ -155,7 +155,7 @@ div[view_id = 'slogan'] {
 .content {
   font-family: 'Chakra Petch';
   color: #ec9421;
-  font-size: 45px !important;
+  font-size: 40px !important;
   font-weight: 700;
   height: 45px;
   margin-bottom: 45px;
