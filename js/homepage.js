@@ -24,10 +24,20 @@ const HomePage = (() => {
         },
         {
           id: 'slogan',
-          view: 'textarea',
+          view: 'template',
           width: 700,
           height: 300,
-          value: introduce.description,
+          // value: introduce.description,
+          template: `<h4 class="wordCarousel">
+          <span>Cộng đồng yêu thích </span>
+          <div class = 'listContent'>
+              <ul class="flip3">
+                  <li class = 'content'>NFTs</li>
+                  <li class = 'content'>Metaverse</li>
+                  <li class = 'content'>Gamefi</li>
+                  </ul>
+          </div>
+      </h4>`,
           readonly: true,
         },
       ],
