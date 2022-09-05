@@ -154,7 +154,14 @@ div[view_id = 'slogan'] {
   display: block;
   
 }
+div[view_id = "footer"] > div {
+  left: 50px !important;
+  bottom: 30px !important;
+  color:#dee994 ;
+  position:fixed;
+  font-size: 20px  !important;
 
+}
 
 .flip2 { animation: flip2 6s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
 .flip3 { animation: flip3 6.3s cubic-bezier(0.23, 1, 0.32, 1.4) infinite; }

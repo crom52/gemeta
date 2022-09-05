@@ -57,6 +57,11 @@ const HomePage = (() => {
         },
       ],
     };
+    const footer = {
+      view: 'label',
+      id: 'footer',
+      label: 'Copyright 2022© Gemeta. All Rights Reserved',
+    };
     const buttons = {
       view: 'layout',
       height: 100,
@@ -118,6 +123,7 @@ const HomePage = (() => {
               readonly: true,
             },
             buttons,
+            footer,
           ],
         },
       ],
