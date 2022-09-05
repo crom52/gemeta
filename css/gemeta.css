@@ -92,6 +92,7 @@ div[view_id = "banner"] img {
 div[view_id = 'slogan'] {
   background: transparent !important;
   border: none !important;
+  margin-left: -50px !important;
 }
 .wordCarousel >span {
   min-width: max-content !important;

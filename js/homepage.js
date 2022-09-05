@@ -29,7 +29,7 @@ const HomePage = (() => {
           height: 300,
           // value: introduce.description,
           template: `<h4 class="wordCarousel">
-          <span>Cộng đồng</span>
+          <span>Cộng đồng yêu thích</span>
           <div class = 'listContent'>
               <ul class="flip3">
                   <li class = 'content'>NFTs</li>
