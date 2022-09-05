@@ -1,0 +1,162 @@
+.s-about-img img{
+    width: 500px;
+}
+div[view_id= "slogan"] textarea {
+    font-size: 50px !important;
+    font-weight: 930 !important;
+    border: none;
+    color: #e7ff46;
+    background-color: transparent;   
+    font-family: 'Chakra Petch' !important;
+    /* transform: translate(50%,-50%); */
+    /* position: absolute !important; */
+    text-shadow: 1px 1px 1px #494343,
+    2px 2px 1px #494343,
+    2px 3px 1px #494343,
+    2px 3px 1px #494343,
+    2px 3px 1px #494343,
+    2px 4px 1px #494343,
+    2px 4px 1px #494343,
+    2px 5px 1px #494343,
+    2px 8px 1px #494343,
+    2px 7px 1px #494343,
+1px 18px 6px rgba(207, 129, 12, 0.2),
+1px 22px 10px rgba(207, 129, 12,0.3),
+1px 25px 35px rgba(207, 129, 12,0.3),
+1px 30px 60px rgba(207, 129, 12,0.2);
+}
+
+#gemetaHomePage > div{
+    margin-top: 10% !important;
+}  
+div[view_id= "logoGemeta"] {
+    padding-top: 4%;
+}
+div[view_id = "slogan"] {
+    padding-top:16%;
+}
+
+
+div[view_id= "description"]  textarea{
+    font-size: 30px !important;
+    font-weight: 800 !important;
+    border: none;
+    background: transparent;
+    margin-left: 30px !important;
+    color:rgb(255, 255, 255);
+
+}
+
+div[view_id= "mission"]  textarea{
+    font-size: 25px !important;
+    font-weight: 400 !important;
+    border: none;
+}
+
+.webix_el_textarea textarea:focus {
+    border: none !important;
+    cursor: default !important;
+}
+div[view_id="description"] {
+    padding-top: 15%
+}
+
+div[view_id = "teleButton"] button{
+    background: none !important;
+    width:100px !important
+}
+div[view_id = "discordButton"] button{
+    background: none !important;
+    width:100px !important
+
+}
+div[view_id = "facebookButton"] button{
+    background: none !important;
+    width:100px !important
+}
+div[view_id = "header"] {
+    border: none;
+}
+
+
+
+div[view_id = "logoGemeta"] button {
+    background: none !important;
+}
+div[view_id = "banner"] img {
+    border-radius: 30px;
+    height:550px !important
+}
+/* .webix_inp_textarea {
+    background: transparent !important;
+} */
+
+
+
+html {
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size:cover;
+        /* background-image: url("../img/background.png"); */
+    background-image: url("https://wallpaperaccess.com/full/7615961.jpg");
+    /* background-image: url("https://images3.alphacoders.com/984/984722.jpg"); */
+    /* background-image: url('https://wallpaperaccess.com/full/7615961.jpg'); */
+}
+
+#gemetaHomePage {
+    -webkit-animation: bottom_up; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: bottom_up 1s; /* Firefox < 16 */
+        -ms-animation: bottom_up 1s; /* Internet Explorer */
+         -o-animation: bottom_up 1s; /* Opera < 12.1 */
+            animation: bottom_up 1s;
+}
+
+@keyframes bottom_up {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+
+/* Firefox < 16 */
+@-moz-keyframes bottom_up {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes bottom_up {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+/* Internet Explorer */
+@-ms-keyframes bottom_up {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+/* Opera < 12.1 */
+@-o-keyframes bottom_up {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
