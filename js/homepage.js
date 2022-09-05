@@ -1,6 +1,6 @@
 const HomePage = (() => {
   const introduce = {
-    slogan: '   A GEM IN METAVERSE',
+    slogan: 'A GEM IN METAVERSE',
     description: `Cộng đồng NFTs P2E và Metaverse`,
     mission: `Nhiệm vụ của chúng tôi:
       Tạo ra một kênh chia sẻ kiến thức chuyên sâu về dòng game AAA và hệ sinh thái Immutable-X
