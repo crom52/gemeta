@@ -123,6 +123,7 @@ const HomePage = (() => {
               readonly: true,
             },
             buttons,
+            { height: 100 },
             footer,
           ],
         },
