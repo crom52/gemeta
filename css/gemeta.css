@@ -93,14 +93,18 @@ div[view_id = 'slogan'] {
   background: transparent !important;
   border: none !important;
 }
-
+.wordCarousel >span {
+  min-width: max-content !important;
+}
 
 .wordCarousel {
+  min-width: max-content !important;
   font-weight: 930 !important;
   font-family: 'Chakra Petch';
   font-size: 45px !important;
-  margin-right:20px !important;
   color: #e7ff46;
+  display: flex;
+  flex: 1;
   text-shadow: 1px 1px 1px #494343,
   2px 2px 1px #494343,
   2px 3px 1px #494343,
@@ -116,15 +120,18 @@ div[view_id = 'slogan'] {
 1px 25px 35px rgba(207, 129, 12,0.3),
 1px 30px 60px rgba(207, 129, 12,0.2);
 }
+
 .listContent {
-  position: relative;
+  min-width: max-content !important;
   float: right;
+  padding: 0 !important;
   height: 70px;
-  margin-top: -60px; 
   overflow: hidden;
   font-family: 'Chakra Petch';
   font-size: 45px !important;
   font-weight: 930 !important;
+  display: flex;
+  flex: 1;
   color: #e7ff46;
   text-shadow: 1px 1px 1px #494343,
   2px 2px 1px #494343,
@@ -151,14 +158,14 @@ div[view_id = 'slogan'] {
   font-weight: 700;
   height: 45px;
   margin-bottom: 45px;
-  display: block;
-  
+  display: flex;
+  flex: 1;
+  margin-left:-20px;
 }
 div[view_id = "footer"] > div {
   left: 50px !important;
   bottom: 30px !important;
   color:#f7f436 !important;
-  /* position:fixed; */
   font-size: 20px !important;
 
 }
