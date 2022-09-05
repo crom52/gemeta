@@ -224,7 +224,12 @@ div[view_id = "footer"] > div {
 }
 
 
-
+body {
+  overflow: hidden !important;
+}
+body {
+  position: relative;
+}
 
 html {
     overflow: hidden;
