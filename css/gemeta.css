@@ -157,9 +157,9 @@ div[view_id = 'slogan'] {
 div[view_id = "footer"] > div {
   left: 50px !important;
   bottom: 30px !important;
-  color:#dee994 ;
+  color:#f7f436 !important;
   position:fixed;
-  font-size: 20px  !important;
+  font-size: 20px !important;
 
 }
 
