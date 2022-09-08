@@ -34,7 +34,7 @@ html {
   height:100vh; 
   width:100vw;   
   top: 3%;
-  left:3%;
+  left:0;
   position: absolute;
 }
 
