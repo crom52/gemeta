@@ -303,7 +303,7 @@ div[view_id = "footer"] > div {
   /* CSS Responsive */
   
   /* IphoneX */
-@media (min-width: 374px) and (min-height: 810){
+@media (min-width: 370px) and (min-height: 800px){
   html{
     background-size: contain;
   }
@@ -312,8 +312,8 @@ div[view_id = "footer"] > div {
   }
 
   .logo{
-    height: 20%;
-    margin: auto 25%;
+    height: 15%;
+    margin: auto 30%;
   } 
   .slogan {
     background-position:center;
