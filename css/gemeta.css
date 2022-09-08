@@ -75,7 +75,7 @@ svg.svg-inline--fa.fa-discord {
   border-radius: 50%;
   margin: 15px;
   width: 65px;
-  height: 65x;
+  height: 65px;
   line-height: 65px;
   font-size: 40px;
   display: inline-block;
@@ -323,7 +323,7 @@ div[view_id = "footer"] > div {
   }
 
   .wordCarousel, .content , .listContent{
-    font-size: 20px;
+    font-size: 23px;
     height: 40px;
     margin-bottom: 50px;
   }
@@ -332,16 +332,19 @@ div[view_id = "footer"] > div {
     top:40%
 }
   .button-group .icon{
-    line-height: 30px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
     font-size: 30px;
   }
   .button-group svg{
     width: 20px;
-    height: 20px;
+    height: 30px;
     line-height: 20px;
-    font-size: 25px;
-    /* margin-left: 8px;
-    margin-top: 10px; */
+    font-size: 30px;
+  }
+  .inline{
+    height: 50px;
   }
 }
 
