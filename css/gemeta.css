@@ -304,6 +304,13 @@ div[view_id = "footer"] > div {
   
   /* IphoneX */
 @media (min-width: 374px) and (min-height: 810){
+  html{
+    background-size: contain;
+  }
+  body{
+    background-size: contain;
+  }
+
   .logo{
     height: 20%;
     margin: auto 25%;
