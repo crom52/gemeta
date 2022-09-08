@@ -319,29 +319,28 @@ div[view_id = "footer"] > div {
     background-position:center;
     background-size: contain;
     top: -12%;
-    left: 9%;
     position: absolute;
   }
 
   .wordCarousel, .content , .listContent{
-    font-size: 40px;
+    font-size: 25px;
     height: 40px;
     margin-bottom: 50px;
   }
+  .slogan-social-buttons {
+    left:0%;
+}
   .button-group .icon{
-    width: 45px;
-    height: 45px;
+    line-height: 50px;
+    font-size: 50px;
   }
-  .button-group .icon svg{
+  .button-group svg{
     width: 40px;
     height: 40px;
     line-height: 40px;
     font-size: 45px;
-    margin-left: 8px;
-    margin-top: 10px;
-  }
-  .slogan-social-buttons {
-    /* left: 7%; */
+    /* margin-left: 8px;
+    margin-top: 10px; */
   }
 }
 
