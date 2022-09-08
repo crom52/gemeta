@@ -318,7 +318,7 @@ div[view_id = "footer"] > div {
   .slogan {
     background-position:center;
     background-size: contain;
-    top: 3%;
+    top: -12%;
     left: 9%;
     position: absolute;
   }
