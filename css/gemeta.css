@@ -323,22 +323,23 @@ div[view_id = "footer"] > div {
   }
 
   .wordCarousel, .content , .listContent{
-    font-size: 25px;
+    font-size: 20px;
     height: 40px;
     margin-bottom: 50px;
   }
   .slogan-social-buttons {
-    left:0%;
+    left:5%;
+    top:40%
 }
   .button-group .icon{
-    line-height: 50px;
-    font-size: 50px;
+    line-height: 30px;
+    font-size: 30px;
   }
   .button-group svg{
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    font-size: 45px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 25px;
     /* margin-left: 8px;
     margin-top: 10px; */
   }
