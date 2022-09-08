@@ -305,13 +305,14 @@ div[view_id = "footer"] > div {
   /* IphoneX */
 @media (min-width: 374px) and (min-height: 810){
   .logo{
+    height: 20%;
     margin: auto 25%;
   } 
   .slogan {
     background-position:center;
-    background-size:contain;
+    background-size: contain;
     top: 3%;
-    left:0;
+    left: 9%;
     position: absolute;
   }
 
@@ -344,6 +345,12 @@ div[view_id = "footer"] > div {
 @media (min-width: 960px) and (min-height: 360px){}
 @media (min-width: 960px) and (min-height: 720px){}
 @media (min-width: 960px) and (min-height: 1080px){}
+@media (min-width: 1300px) and (min-height: 600px){
+  .slogan-social-buttons {
+    left: 12%;
+    margin-top: 2%;
+  }
+}
 @media (min-width: 1440px) and (min-height: 360px){
   .wordCarousel, .content , .listContent{
     font-size: 70px;
