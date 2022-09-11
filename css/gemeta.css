@@ -205,12 +205,6 @@ html {
 }
 
 
-div[view_id = "footer"] > div {
-  left: 50px !important;
-  bottom: 30px !important;
-  color:#f7f436 !important;
-  font-size: 20px !important;
-}
 
 .flip2 { animation: flip2 6s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
 .flip3 { animation: flip3 6.3s cubic-bezier(0.23, 1, 0.32, 1.4) infinite; }
@@ -267,7 +261,7 @@ div[view_id = "footer"] > div {
 
 
 
-#gemetaHomePage {
+.slogan-social-buttons {
     -webkit-animation: bottom_up; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: bottom_up 1s; /* Firefox < 16 */
         -ms-animation: bottom_up 1s; /* Internet Explorer */
@@ -924,7 +918,7 @@ div[view_id = "footer"] > div {
     margin-top:1%;
   }
   .tele-button{
-    margin-left: 7%
+    margin-left: 21%
   }
 }
 
@@ -986,7 +980,7 @@ div[view_id = "footer"] > div {
     margin-top:1%;
   }
   .tele-button{
-    margin-left: 7%
+    margin-left: 21%
   }
 }
 
@@ -1053,6 +1047,6 @@ div[view_id = "footer"] > div {
     margin-top:1%;
   }
   .tele-button{
-    margin-left: 7%
+    margin-left: 21%
   }
 }
